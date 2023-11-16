@@ -1,0 +1,19 @@
+:root {
+    /* site colors */
+    --cprim: #2B5292;
+    --csec: #3A4359;
+    --cacc1: #453F32;
+    --cacc2r: #EFEFEF;
+
+    /* site fonts */
+    --hfont: "Cormorant";
+    --pfont: "Open Sans", Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--cprim);
+}
+
+nav a {
+    color: white;
+}
