@@ -10,10 +10,55 @@
     --pfont: "Open Sans", Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     background-color: var(--cprim);
+    height: 100px;
+}
+
+.header-logo {
+    position: absolute;
+    top: -122px;
+    height: 375px;
+}
+
+nav {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    text-align: center;
 }
 
 nav a {
     color: white;
+    font-size: 2em;
+    font-family: var(--hfont);
+    text-decoration: none;
+}
+
+.nav-about {
+    grid-column: 4/5;
+}
+
+main {
+    margin: 80px 80px;
+}
+
+#intro {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+}
+
+#portrait {
+    width: 80%;
+}
+
+p {
+    font-family: var(--pfont);
+    line-height: 1.6em;
 }
