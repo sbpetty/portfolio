@@ -35,7 +35,7 @@ nav {
 
 nav a {
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: var(--hfont);
     text-decoration: none;
 }
@@ -61,6 +61,26 @@ main {
 p {
     font-family: var(--pfont);
     line-height: 1.6em;
+}
+
+#about-grid {
+    display: grid;
+    align-items: center;
+}
+
+#about-grid p {
+    margin-right: 80px;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 38%;
+    float: right;
+}
+
+.img-grid img {
+    width: 100%;
 }
 
 footer a {
